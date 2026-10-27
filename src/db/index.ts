@@ -171,7 +171,7 @@ export async function seedInitialData(): Promise<Note | null> {
       content: [
         {
           type: 'text',
-          text: 'Tuliis is a minimal, local-first Notion clone built with pure client-side architecture. Everything is stored securely in your browser IndexedDB with zero server dependency.',
+          text: 'Tuliis adalah aplikasi catatan yang mudah digunakan.',
           styles: {},
         },
       ],
