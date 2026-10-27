@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --bn-colors-editor-text: #191919;
+  --bn-colors-editor-background: #ffffff;
+  --bn-colors-menu-text: #191919;
+  --bn-colors-menu-background: #ffffff;
+  --bn-colors-tooltip-text: #ffffff;
+  --bn-colors-tooltip-background: #191919;
+  --bn-colors-hovered-text: #191919;
+  --bn-colors-hovered-background: #efefed;
+  --bn-colors-selected-text: #191919;
+  --bn-colors-selected-background: #eaeaea;
+  --bn-colors-disabled-text: #999999;
+  --bn-colors-disabled-background: #f7f6f3;
+  --bn-colors-shadow: rgba(15, 15, 15, 0.05);
+  --bn-colors-border: #e9e9e7;
+  --bn-colors-side-menu: #787774;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #191919;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom minimal scrollbar matching Notion */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #dfdfde;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #c5c5c3;
+}
+
+/* Clean BlockNote Canvas integration */
+.blocknote-wrapper .bn-container {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+.blocknote-wrapper .bn-editor {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #191919 !important;
+}
+
+.blocknote-wrapper .bn-editor h1,
+.blocknote-wrapper .bn-editor h2,
+.blocknote-wrapper .bn-editor h3 {
+  font-weight: 600;
+  color: #191919;
+}
