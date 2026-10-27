@@ -85,7 +85,7 @@ export const Sidebar: React.FC = () => {
               T
             </div>
             <span className="font-semibold text-xs tracking-tight text-[#191919]">
-              tuliis
+              Tuliis
             </span>
           </div>
 
